@@ -1,1 +1,21 @@
 /* All styles for your header Components live here */
+
+.flex {
+  display: flex;
+  /*border: 1px solid red;*/
+  flex-direction: column;
+}
+
+.headerTitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.headerTitle h4 {
+}
+
+.container {
+  display: flex;
+}
