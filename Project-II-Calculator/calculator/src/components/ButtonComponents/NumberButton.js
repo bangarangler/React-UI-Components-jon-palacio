@@ -4,9 +4,15 @@ import "./Button.css";
 const NumberButton = props => {
   return (
     <div>
-      <button className={props.btn + " " + props.display}>{props.num}</button>
+      <button className={props.display}>{props.num}</button>
     </div>
   );
 };
 
 export default NumberButton;
+
+//const NumberButton = {obj} => {
+//return (
+//<button className={obj.btnName}></button>
+//);
+//}

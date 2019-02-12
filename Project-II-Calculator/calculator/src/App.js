@@ -7,7 +7,6 @@ import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay"
 const App = () => {
   return (
     <div className="siteWrap">
-      <h1>Testing</h1>
       <div className="box__container">
         <CalculatorDisplay ph={"0"} />
         <div className="split">
@@ -40,5 +39,21 @@ const App = () => {
     </div>
   );
 };
+
+//const zero = {
+//num: 0,
+//btnName: "btn",
+//btnBg: "operator"
+//};
+
+//const one = {
+//num: 1,
+//btnName: "btn",
+//btnBg: "operator"
+//};
+
+//function App() {
+//return <NumberButton obj={zero} />;
+//}
 
 export default App;

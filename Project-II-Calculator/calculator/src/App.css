@@ -2,8 +2,11 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+  margin: 0 auto;
+  width: 50%;
 }
-h1 {
-  color: hotpink;
+
+.box__container {
+  margin: 0 auto;
 }
