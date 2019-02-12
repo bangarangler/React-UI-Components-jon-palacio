@@ -1,0 +1,15 @@
+.displayNum {
+  background: black;
+  color: white;
+  width: 200px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 36px;
+}
+
+.displayNum p {
+  margin-right: 8%;
+  color: white;
+}

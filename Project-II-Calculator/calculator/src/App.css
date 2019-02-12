@@ -1,0 +1,9 @@
+.siteWrap {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: 1px solid red;
+}
+h1 {
+  color: hotpink;
+}
