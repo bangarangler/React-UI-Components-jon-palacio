@@ -3,11 +3,9 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 
-.flex {
-}
-
-.headerTitle {
-  display: flex;
-  justify-content: start;
-  align-items: center;
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  height: 50%;
+  /*border: 1px solid red;*/
 }

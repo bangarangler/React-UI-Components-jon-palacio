@@ -10,12 +10,27 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-bottom: 0;
+  margin-left: 2%;
 }
 
-.headerTitle h4 {
+.headerTitle p {
+  /*border: 1px solid green;*/
+  margin-left: 2%;
 }
 
 .container {
   display: flex;
+}
+
+.container img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: 2%;
+}
+
+.headerCont {
+  /*border: 1px solid red;*/
+  width: 80%;
+  margin-left: 2%;
 }
